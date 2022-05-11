@@ -11,7 +11,6 @@ class Solution:
         # for i in nums1:
         #     if i not in res and i in nums2:
         #         res.append(i)
-
         # return res
 
         # Solution 3 dictionary/hashmap
@@ -23,7 +22,6 @@ class Solution:
         #     if j in map and map[j] > 0:
         #         res.append(j)
         #         map[j] = 0
-
         # return res
 
         # Solution 4 sort two lists then use two pointer to search common elements
@@ -41,5 +39,4 @@ class Solution:
         #             res.append(nums1[i])
         #         i += 1
         #         j += 1
-        
         # return res
